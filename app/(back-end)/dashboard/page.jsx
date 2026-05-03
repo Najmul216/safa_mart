@@ -3,6 +3,7 @@ import Heading from "../../../components/backend/Heading";
 import LeargeCards from "../../../components/backend/LeargeCards";
 import SmallCards from "../../../components/backend/SmallCards";
 import DashboardCharts from "../../../components/backend/DashboardCharts";
+import CustomDataTable from "../../../components/backend/CustomDataTable";
 
 export default function dashboard() {
   return (
@@ -15,6 +16,7 @@ export default function dashboard() {
       {/* Charts */}
       <DashboardCharts />
       {/* Recent Orders Tables */}
+      <CustomDataTable />
     </div>
   );
 }
